@@ -5,7 +5,7 @@ on:
 
 jobs:
   send_result:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Report the outcome of the event
         if: ${{ always() }}
